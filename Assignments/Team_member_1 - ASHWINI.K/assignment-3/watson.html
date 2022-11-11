@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<title>NALAIYA THIRAN</title>   
+<link rel="stylesheet" href="style.css" > 
+<body>
+    <div class="text-box">
+        <h1>NALAIYA THIRAN</h1>
+        <p>PROJECT-NEWS TRACKER APPLICATION
+        </p>
+      </div>
+    </section>      
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "20fc38f7-f535-4b4e-bb6a-59c9a85b745c", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "26b93846-fc35-4b8f-8657-a76a9816cacd", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
